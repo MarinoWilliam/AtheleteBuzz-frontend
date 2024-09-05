@@ -1,0 +1,28 @@
+.navElementContainer {
+    @apply py-2  text-gray-200 border-grayBuzz-200 border-r-4 ml-1 transition-all duration-300 ease-in-out;
+}
+
+.navElementContainer:hover {
+    @apply  font-semibold;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.selectedClass {
+    @apply text-orangeBuzz-100 border-orangeBuzz-100 border-r-4 ;
+    box-shadow: none; 
+}
+
+.navLinkContainer{
+    @apply flex items-center justify-between text-sm;
+}
+
+.navTitle{
+    @apply mr-4
+}
+.icon{
+    @apply h-5 w-5 ml-4  ;
+}
+
+.icon.centered {
+    margin: auto; /* Center the icon when collapsed */
+}

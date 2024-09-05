@@ -1,0 +1,26 @@
+.Thick_Container{
+@apply w-48
+}
+
+.Thick_elements{
+    @apply flex flex-col pt-2
+}
+
+
+.Thin_elements{
+    @apply flex flex-col
+}
+
+.strapSideNavbarContainer {
+    @apply h-full w-12; /* Width for collapsed state */
+  }
+  
+  .navIcon {
+    @apply text-gray-500 flex items-center justify-center p-2; /* Add some padding and center the icon */
+    text-decoration: none;
+  }
+  
+  .navIcon.active {
+    @apply text-blue-500; /* Or whatever active style you prefer */
+  }
+  

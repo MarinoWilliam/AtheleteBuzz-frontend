@@ -1,0 +1,22 @@
+.sideNavbarContainer {
+  @apply fixed top-0 left-0 h-full  text-gray-500 bg-grayBuzz-200 border-r-2 border-r-orangeBuzz-100 border-opacity-60 ;
+  overflow: hidden;
+}
+
+.sideNavbarContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1px; /* Adjust this value to position the glow precisely */
+  height: 100%;
+  width: 1px;
+  background-color: transparent;
+  pointer-events: none;
+  box-shadow: 0 0 30px 4px rgba(255, 185, 24); /* Adjust the color and opacity as needed */
+  z-index: -1;
+}
+
+.arrow{
+  @apply ml-2 text-4xl
+}
+
